@@ -1,6 +1,6 @@
 package com.neuedu.base;
 
-import java.util.List;
+import java.awt.*;
 
 public abstract class BaseSprite {
 
@@ -9,6 +9,8 @@ public abstract class BaseSprite {
 
     public BaseSprite() {
     }
+
+
 
     public BaseSprite(int x, int y) {
         this.x = x;
@@ -30,4 +32,9 @@ public abstract class BaseSprite {
     public void setY(int y) {
         this.y = y;
     }
+
+    public Rectangle getRectangle(){
+        return null;
+    }
+
 }
